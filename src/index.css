@@ -1,0 +1,97 @@
+/* Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Oswald Font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primaryBtn {
+    @apply bg-primary-bg-yellow rounded-lg px-4 py-2 font-medium;
+  }
+  .underLine {
+    @apply relative after:absolute after:w-48 after:h-[2.5px] after:rounded-3xl after:bg-[#ab2132] after:bottom-[-13px] after:left-1/2 after:-translate-x-1/2;
+  }
+}
+
+/*Start Themes*/
+:root {
+  --primary-color: #0f2b37;
+  --primary-color2: #fdbf00;
+  --primary-color3: #9d9d9d;
+  --primary-color4: #fff;
+  --primary-bg-gray1: #f0f0f0;
+  --primary-bg-gray2: #dfebf3;
+  --primary-bg-yellow: #ffc000;
+  --primary-bg-darkBlue: #233d4a;
+  --primary-bg-darkBlue2: #0c2937;
+}
+/*End Themes*/
+
+/* selection style */
+::selection {
+  background-color: var(--primary-color4);
+  color: var(--primary-color);
+}
+/* selection style */
+
+/* Custom styling*/
+body {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-padding: 20px;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+/* Custom styling*/
+
+/* Start Header Section Style */
+.headerH2 {
+  font-size: clamp(2.7rem, 8vw, 4.6rem);
+}
+.headerP {
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+
+.headerCaption {
+  background-image: linear-gradient(#fff7, #fff7),
+    url("./assets/images/3_20240811_125314_0002-scaled.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* End Header Section Style */
+
+/* Start Package Section Style */
+.myShadow {
+  box-shadow: 7px -8px 0px var(--primary-bg-darkBlue2);
+}
+.yellowShadow {
+  box-shadow: 7px -8px 0px var(--primary-bg-yellow);
+}
+/* End Package Section Style */
+
+/* Start Accordion Section */
+
+.accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  background-color: var(--primary-bg-yellow);
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: 0px 0px 0px 1px var(--primary-color2);
+}
+/* End Accordion Section */
+
+.blueHr {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #504d78);
+}
+.redHr {
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #ab2132);
+}
