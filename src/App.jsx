@@ -19,10 +19,6 @@ function App() {
           element: <CheckOut />,
         },
         {
-          path: "/checkOut",
-          element: <CheckOut />,
-        },
-        {
           path: "*",
           element: <NotFound />,
         },
