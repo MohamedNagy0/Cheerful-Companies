@@ -21,6 +21,9 @@
   .underLine2 {
     @apply after:absolute after:-bottom-2  after:bg-slate-300 after:w-full after:left-0 after:h-[1px] relative;
   }
+  .navActive {
+    @apply relative after:duration-[400ms] after:w-0 hover:after:w-full after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-3 after:bg-primary-bg-yellow after:h-[3px] duration-300;
+  }
 }
 
 /*Start Themes*/
@@ -55,7 +58,6 @@ html {
 h2 {
   font-family: "Oswald", sans-serif;
 }
-
 /* Custom styling*/
 
 /* Start Header Section Style */
