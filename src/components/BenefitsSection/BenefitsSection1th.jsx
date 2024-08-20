@@ -4,7 +4,7 @@ import BenefitsList from "./BenefitsList";
 function BenefitsSection1th() {
   return (
     <section id="benefitsSection">
-      <div className="wrapper grid grid-cols-12  mt-8">
+      <div className="wrapper grid grid-cols-12  mt-16">
         <BenefitsList />
         <BenefitImage />
       </div>
