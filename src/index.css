@@ -69,11 +69,10 @@ h2 {
 }
 
 .headerCaption {
-  background-image: linear-gradient(#fff7, #fff7),
-    url("./assets/images/3_20240811_125314_0002-scaled.webp");
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #fff),
+    url("./assets/images/wallpapesrflare.com_wallpaper.webp");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .headerCoverImage {
