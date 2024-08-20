@@ -12,7 +12,7 @@ function MyNav() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-primary-bg-gray1  w-full py-3 z-50">
+      <Navbar expand="lg" className="bg-primary-bg-gray1 w-full py-3 z-50">
         <Container>
           <h1 className="w-[200px] h-[50px]">
             <Link to="/">

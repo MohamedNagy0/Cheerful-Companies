@@ -2,7 +2,7 @@ import { BiDownArrowCircle } from "react-icons/bi";
 
 function Header() {
   return (
-    <header className="h-screen py-16 flex justify-center items-center headerCoverImage">
+    <header className="h-screen flex justify-center items-center headerCoverImage">
       <div className="container flex justify-center items-center flex-col gap-16  h-full">
         <h2
           data-aos="fade-up"
