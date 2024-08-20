@@ -15,6 +15,12 @@
   .underLine {
     @apply relative after:absolute after:w-48 after:h-[2.5px] after:rounded-3xl after:bg-[#ab2132] after:bottom-[-13px] after:left-1/2 after:-translate-x-1/2;
   }
+  .primaryInput {
+    @apply border rounded-md py-[8px] w-full focus:outline-primary-color2 px-4;
+  }
+  .underLine2 {
+    @apply after:absolute after:-bottom-2  after:bg-slate-300 after:w-full after:left-0 after:h-[1px] relative;
+  }
 }
 
 /*Start Themes*/
@@ -49,6 +55,7 @@ html {
 h2 {
   font-family: "Oswald", sans-serif;
 }
+
 /* Custom styling*/
 
 /* Start Header Section Style */
@@ -95,3 +102,9 @@ h2 {
 .redHr {
   background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #ab2132);
 }
+
+/* Select Style  */
+.css-8lv0ax-control:hover {
+  border-color: var(--primary-bg-yellow) !important;
+}
+/* Select Style  */

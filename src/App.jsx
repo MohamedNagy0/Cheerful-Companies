@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./pages/MainPage/MainPage";
 import Layout from "./components/Layout/Layout";
+import CheckOut from "./pages/CheckOut/CheckOut";
 
 function App() {
   const routes = createBrowserRouter([
@@ -11,6 +12,10 @@ function App() {
         {
           index: true,
           element: <MainPage />,
+        },
+        {
+          path: "/checkOut",
+          element: <CheckOut />,
         },
       ],
     },
