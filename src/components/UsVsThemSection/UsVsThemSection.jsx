@@ -1,4 +1,4 @@
-import cheerful from "../../assets/images/cropped-DELTAWING-270°-AWNING-2.png";
+import cheerful from "../../assets/images/cropped-DELTAWING-270°-AWNING-2.webp";
 import { Fragment } from "react";
 import { FaCheck } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";

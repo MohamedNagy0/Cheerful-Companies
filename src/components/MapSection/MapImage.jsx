@@ -1,4 +1,4 @@
-import mapImage from "../../assets/images/gay_marriage_maps_wyoming_oct-17_6-e1718019659879.png";
+import mapImage from "../../assets/images/gay_marriage_maps_wyoming_oct-17_6-e1718019659879.webp";
 
 function MapImage() {
   return (

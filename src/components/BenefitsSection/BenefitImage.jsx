@@ -1,4 +1,4 @@
-import benefitImage from "../../assets/images/manhattan-skyline-background-scaled.jpg";
+import benefitImage from "../../assets/images/manhattan-skyline-background-scaled.webp";
 
 function BenefitImage() {
   return (

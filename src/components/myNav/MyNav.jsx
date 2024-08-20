@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { RiMenu3Line } from "react-icons/ri";
-import logoImag from "../../assets/images/Logo-B-01-e1723398545101.png";
+import logoImag from "../../assets/images/Logo-B-01-e1723398545101.webp";
 import { Link, NavLink } from "react-router-dom";
 
 function MyNav() {
