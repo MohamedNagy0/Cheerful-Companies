@@ -185,7 +185,7 @@ function OrderForm() {
               </label>
               <textarea
                 id="optional"
-                className="primaryInput placeholder:text-sm placeholder:font-light"
+                className="primaryInput placeholder:text-sm placeholder:font-light min-h-32"
                 placeholder="Notes about your order, e.g.special notes for delivery"
               ></textarea>
             </div>
