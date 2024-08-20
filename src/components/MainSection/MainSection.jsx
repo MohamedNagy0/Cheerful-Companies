@@ -11,11 +11,11 @@ function MainSection() {
       {/* Benefits Section */}
       <BenefitsSection1th />
 
-      {/* Package Section  */}
-      <PackageSection />
-
       {/* 2th Benefits Section*/}
       <BenefitsSection2th />
+
+      {/* Package Section  */}
+      <PackageSection />
 
       {/* Us Vs Them Section */}
       <UsVsThemSection />
