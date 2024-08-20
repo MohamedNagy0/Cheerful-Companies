@@ -1,6 +1,6 @@
 import { FaCheck } from "react-icons/fa";
 
-function EntityType() {
+function EntityTypeSection() {
   return (
     <section
       data-aos="fade-up"
@@ -102,4 +102,4 @@ function EntityType() {
   );
 }
 
-export default EntityType;
+export default EntityTypeSection;
