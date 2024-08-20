@@ -2,7 +2,7 @@ import { BiDownArrowCircle } from "react-icons/bi";
 
 function Header() {
   return (
-    <header className=" min-h-screen flex justify-center items-center">
+    <header className=" min-h-screen flex justify-center items-center headerCoverImage">
       <div className="container flex justify-center items-center flex-col gap-16  h-full">
         <h2
           data-aos="fade-up"
@@ -21,7 +21,7 @@ function Header() {
             data-aos="zoom-in"
             data-aos-duration="2000"
             href="#PackageSection"
-            className="primaryBtn hover:bg-white border-2 border-primary-color2  duration-500 mt-16 font-bold text-xl px-8 py-3 hover:animate-shake"
+            className="primaryBtn hover:bg-white border-[1px] border-primary-color2 hover:border-primary-color  duration-500 mt-16 font-bold text-xl px-8 py-3 hover:animate-shake"
           >
             <span className="">Apply Now</span>
           </a>

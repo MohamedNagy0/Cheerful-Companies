@@ -75,6 +75,12 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.headerCoverImage {
+  background-image: url("./assets//images/abstract-yellow-smooth-wave-lines.webp");
+  background-position: center;
+  background-size: cover;
+}
 /* End Header Section Style */
 
 /* Start Package Section Style */
@@ -111,5 +117,4 @@ h2 {
 .css-1emmmzu-control:hover {
   border-color: var(--primary-bg-yellow) !important;
 }
-
 /* Select Style  */
