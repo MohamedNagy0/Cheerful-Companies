@@ -106,7 +106,10 @@ h2 {
 }
 
 /* Select Style  */
-.css-8lv0ax-control:hover {
+.css-8lv0ax-control:hover,
+.css-1l3ma3x-control:hover,
+.css-1emmmzu-control:hover {
   border-color: var(--primary-bg-yellow) !important;
 }
+
 /* Select Style  */
