@@ -80,6 +80,14 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+.packageCoverImage {
+  background-image: url("./assets//images/1343.webp");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-size: cover;
+}
 /* End Header Section Style */
 
 /* Start Package Section Style */

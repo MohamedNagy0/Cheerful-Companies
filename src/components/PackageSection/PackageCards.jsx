@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function PackageCards() {
   return (
-    <div className="container overflow-hidden">
+    <div className="container">
       <div className="wrapper py-16 grid grid-cols-12  gap-x-8 lg:gap-x-6 gap-y-8 mt-24">
         <article className="bg-primary-bg-yellow myShadow  font-bold flex flex-col gap-8 px-4 py-6 rounded-[20px] col-span-12 md:col-span-6 lg:col-span-4  hover:-translate-y-3 duration-700 relative ">
           <h2 className="font-extrabold text-xl ">Silver Package</h2>
