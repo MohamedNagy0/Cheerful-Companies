@@ -88,7 +88,7 @@ h2 {
 }
 /* End Header Section Style */
 
-/* Start Package Section Style */
+/* Start Package Section Style*/
 .myShadow {
   box-shadow: 7px -8px 0px var(--primary-bg-darkBlue);
 }
