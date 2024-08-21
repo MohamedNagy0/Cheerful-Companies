@@ -1,4 +1,4 @@
-import nfImage from "../../assets/images/notfound.webp";
+import nfImage from "../../assets/images/notfound.jpg";
 
 export default function NotFound() {
   return (
