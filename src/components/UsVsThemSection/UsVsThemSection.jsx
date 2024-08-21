@@ -2,83 +2,9 @@ import cheerful from "../../assets/images/cropped-DELTAWING-270°-AWNING-2.webp"
 import { Fragment } from "react";
 import { FaCheck } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
+import { servicesComparison } from "../../Data/data";
 
 function UsVsThemSection() {
-  const servicesComparison = [
-    {
-      id: 1,
-      serviceName: "Online Company Formation",
-      "499$ one time payment": true,
-      "+600$": true,
-    },
-    {
-      id: 2,
-      serviceName: "Registered Agent",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 3,
-      serviceName: "Registered Agent Address",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 4,
-      serviceName: "Operating Agreement",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 5,
-      serviceName: "Name Availability Search",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 6,
-      serviceName: "Online Document Access",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 7,
-      serviceName: "Statement of Organizer",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 8,
-      serviceName: "Rush Filing Services",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 9,
-      serviceName: "Employer ID Number [EIN]",
-      "499$ one time payment": true,
-      "+600$": true,
-    },
-    {
-      id: 10,
-      serviceName: "US Bank Account",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 11,
-      serviceName: "24-48 hr Email Support",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-    {
-      id: 12,
-      serviceName: "Chat Support",
-      "499$ one time payment": true,
-      "+600$": false,
-    },
-  ];
-
   return (
     <section className="wrapper py-4 bg-primary-bg-gray1 grid grid-cols-12 my-12">
       <div className="col-span-12">

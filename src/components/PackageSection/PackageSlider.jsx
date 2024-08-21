@@ -1,8 +1,3 @@
-import { BsBuildings } from "react-icons/bs";
-import { FaFileInvoiceDollar } from "react-icons/fa";
-import { FaRegHandshake } from "react-icons/fa6";
-import { BiMessageRoundedDetail } from "react-icons/bi";
-import { CiCreditCard1 } from "react-icons/ci";
 import { Scrollbar, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,35 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { formationSteps } from "../../Data/data";
 
 function PackageSlider() {
-  const formationSteps = [
-    {
-      id: 1,
-      step: "Company Formation",
-      icon: <BsBuildings className={` text-inherit text-5xl`} />,
-    },
-    {
-      id: 2,
-      step: "EIN",
-      icon: <FaFileInvoiceDollar className={` text-inherit text-5xl`} />,
-    },
-    {
-      id: 3,
-      step: "Registered Agent",
-      icon: <FaRegHandshake className={` text-inherit text-5xl`} />,
-    },
-    {
-      id: 4,
-      step: "US Bank Account",
-      icon: <CiCreditCard1 className={` text-inherit text-5xl`} />,
-    },
-    {
-      id: 5,
-      step: "Post Formation Support",
-      icon: <BiMessageRoundedDetail className={` text-inherit text-5xl`} />,
-    },
-  ];
   return (
     <>
       <div className="px-4">

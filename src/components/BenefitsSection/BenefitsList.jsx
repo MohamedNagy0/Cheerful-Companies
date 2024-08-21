@@ -1,15 +1,7 @@
 import { Fragment } from "react";
+import { businessSteps } from "../../Data/data";
 
 function BenefitsList() {
-  const businessSteps = [
-    { id: 1, step: "Earn the trust of your customers" },
-    { id: 2, step: "Open a U.S. Business Bank Account" },
-    { id: 3, step: "Open merchant accounts with Stripe/Paypal/Amazon" },
-    { id: 4, step: "Acquire U.S. customers" },
-    { id: 5, step: "Expand your business globally" },
-    { id: 6, step: "Legitimize your business" },
-  ];
-
   return (
     <>
       <div className=" col-span-12 md:col-span-6 flex  bg-primary-bg-gray1 justify-start items-center py-8 md:py-0 ">
