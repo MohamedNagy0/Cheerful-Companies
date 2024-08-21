@@ -8,6 +8,7 @@ import { FaRegHandshake } from "react-icons/fa6";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { CiCreditCard1 } from "react-icons/ci";
 
+// Start Answer section data
 export const faq = [
   {
     id: 1,
@@ -81,7 +82,9 @@ export const faq = [
       "On average, it takes 5 weeks to complete the process. Opening the company will take 1-2 weeks . Then we can apply for the EIN, which takes 3-4 weeks for the IRS to issue on average. Finally, it takes 3-5 days to open the US bank account, meaning the full time table is 4-6 weeks!",
   },
 ];
+// End Answer section data
 
+// Start Benefits Section Data
 export const businessSteps = [
   { id: 1, step: "Earn the trust of your customers" },
   { id: 2, step: "Open a U.S. Business Bank Account" },
@@ -125,35 +128,9 @@ export const usaBenefits = [
     icon: <FaHeadSideCough className="text-primary-color2 text-5xl" />,
   },
 ];
+// End Benefits Section Data
 
-export const formationSteps = [
-  {
-    id: 1,
-    step: "Company Formation",
-    icon: <BsBuildings className={` text-inherit text-5xl`} />,
-  },
-  {
-    id: 2,
-    step: "EIN",
-    icon: <FaFileInvoiceDollar className={` text-inherit text-5xl`} />,
-  },
-  {
-    id: 3,
-    step: "Registered Agent",
-    icon: <FaRegHandshake className={` text-inherit text-5xl`} />,
-  },
-  {
-    id: 4,
-    step: "US Bank Account",
-    icon: <CiCreditCard1 className={` text-inherit text-5xl`} />,
-  },
-  {
-    id: 5,
-    step: "Post Formation Support",
-    icon: <BiMessageRoundedDetail className={` text-inherit text-5xl`} />,
-  },
-];
-
+// Start Package Section Data
 export const servicesComparison = [
   {
     id: 1,
@@ -228,3 +205,32 @@ export const servicesComparison = [
     "+600$": false,
   },
 ];
+
+export const formationSteps = [
+  {
+    id: 1,
+    step: "Company Formation",
+    icon: <BsBuildings className={` text-inherit text-5xl`} />,
+  },
+  {
+    id: 2,
+    step: "EIN",
+    icon: <FaFileInvoiceDollar className={` text-inherit text-5xl`} />,
+  },
+  {
+    id: 3,
+    step: "Registered Agent",
+    icon: <FaRegHandshake className={` text-inherit text-5xl`} />,
+  },
+  {
+    id: 4,
+    step: "US Bank Account",
+    icon: <CiCreditCard1 className={` text-inherit text-5xl`} />,
+  },
+  {
+    id: 5,
+    step: "Post Formation Support",
+    icon: <BiMessageRoundedDetail className={` text-inherit text-5xl`} />,
+  },
+];
+// End Package Section Data
