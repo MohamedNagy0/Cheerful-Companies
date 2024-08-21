@@ -20,7 +20,7 @@ apps (including Stripe & PayPal). All in the click of a
 button, 100% remotely. "
         />
       </Helmet>
-      <section className="pt-[85px] my-4 ">
+      <section className="my-4 ">
         <div className="container">
           <p className="mb-4">
             <Link
