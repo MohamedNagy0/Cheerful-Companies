@@ -1,4 +1,4 @@
-import benefitsHumanImage from "../../assets/images/gd761d38617700e881291de01f406e0ec1d1d0b98f6b3216e778bc7c78927cc8171635b6a1ea0aecae3db9640c556842a_1280-593358.webp";
+import benefitsHumanImage from "../../assets/images/happy-entrepreneur-online-banking-with-credit-card-mobile-phone-office.webp";
 
 function BenefitsHumanImage() {
   return (

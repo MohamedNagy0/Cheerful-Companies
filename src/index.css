@@ -28,22 +28,22 @@
 
 /*Start Themes*/
 :root {
-  --primary-color: #0f2b37;
-  --primary-color2: #fdbf00;
+  --primary-color: #030e0d;
+  --primary-color2: #45d4be;
   --primary-color3: #9d9d9d;
-  --primary-color4: #fff;
-  --primary-bg-gray1: #f0f0f0;
-  --primary-bg-gray2: #dfebf3;
-  --primary-bg-yellow: #ffc000;
+  --primary-color4: #030e0d;
+  --primary-bg-gray1: #f1fcfb;
+  --primary-bg-gray2: #94cce6;
+  --primary-bg-yellow: #45d4be;
   --primary-bg-darkBlue: #233d4a;
-  --primary-bg-darkBlue2: #0c2937;
+  --primary-bg-darkBlue2: #f1fcfb;
 }
 /*End Themes*/
 
 /* selection style */
 ::selection {
-  background-color: var(--primary-color4);
-  color: var(--primary-color);
+  background-color: var(--primary-bg-yellow);
+  color: var(--primary-bg-darkBlue2);
 }
 /* selection style */
 
@@ -70,18 +70,18 @@ h2 {
 
 .headerCaption {
   background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #fff),
-    url("./assets/images/wallpapesrflare.com_wallpaper.webp");
-  background-position: center;
+    url("./assets/images/wallpaperflare.com_wallpaper.webp");
+  background-position: bottom;
   background-size: cover;
 }
 
 .headerCoverImage {
-  background-image: url("./assets//images/abstract-yellow-smooth-wave-lines.webp");
+  background-image: url("./assets/images/1206.webp");
   background-position: center;
   background-size: cover;
 }
 .packageCoverImage {
-  background-image: url("./assets//images/1343.webp");
+  background-image: url("./assets//images/7818.webp");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -92,7 +92,7 @@ h2 {
 
 /* Start Package Section Style */
 .myShadow {
-  box-shadow: 7px -8px 0px var(--primary-bg-darkBlue2);
+  box-shadow: 7px -8px 0px var(--primary-bg-darkBlue);
 }
 .yellowShadow {
   box-shadow: 7px -8px 0px var(--primary-bg-yellow);

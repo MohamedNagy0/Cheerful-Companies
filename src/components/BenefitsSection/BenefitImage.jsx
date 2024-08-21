@@ -1,4 +1,4 @@
-import benefitImage from "../../assets/images/wallpaperflare.com_wallpaper.webp";
+import benefitImage from "../../assets/images/business-people-shaking-hands-greeting.webp";
 
 function BenefitImage() {
   return (
