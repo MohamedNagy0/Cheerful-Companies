@@ -18,8 +18,6 @@ function Header() {
         </p>
         <footer className="flex justify-center items-center relative">
           <a
-            data-aos="zoom-in"
-            data-aos-duration="2000"
             href="#PackageSection"
             className="primaryBtn hover:bg-white border-[1px] border-primary-color2 hover:border-primary-color  duration-500 mt-16 font-bold text-xl px-8 py-3 hover:animate-shake"
           >
