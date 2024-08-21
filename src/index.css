@@ -70,23 +70,21 @@ h2 {
 
 .headerCaption {
   background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #fff),
-    url("./assets/images/wallpaperflare.com_wallpaper.webp");
+    url("./assets/images/build.webp");
   background-position: bottom;
   background-size: cover;
 }
 
 .headerCoverImage {
-  background-image: url("./assets/images/1206.webp");
+  background-image: url("./assets/images/cover.webp");
   background-position: center;
   background-size: cover;
 }
 .packageCoverImage {
-  background-image: url("./assets//images/7818.webp");
+  background-image: url("./assets/images/headcover.webp");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-
-  background-size: cover;
 }
 /* End Header Section Style */
 

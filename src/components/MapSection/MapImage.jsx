@@ -1,4 +1,4 @@
-import mapImage from "../../assets/images/map-of-american-states.webp";
+import mapImage from "../../assets/images/map.webp";
 
 function MapImage() {
   return (

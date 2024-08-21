@@ -1,4 +1,4 @@
-import benefitImage from "../../assets/images/business-people-shaking-hands-greeting.webp";
+import benefitImage from "../../assets/images/hand.webp";
 
 function BenefitImage() {
   return (

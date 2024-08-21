@@ -1,4 +1,4 @@
-import notFoundImg from "../../assets/images/notFound.webp";
+import notFoundImg from "../../assets/images/notfound.webp";
 
 export default function NotFound() {
   return (

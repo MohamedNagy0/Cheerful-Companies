@@ -1,4 +1,4 @@
-import benefitsHumanImage from "../../assets/images/happy-entrepreneur-online-banking-with-credit-card-mobile-phone-office.webp";
+import benefitsHumanImage from "../../assets/images/bank.webp";
 
 function BenefitsHumanImage() {
   return (
