@@ -13,7 +13,7 @@
     @apply bg-primary-bg-yellow rounded-lg px-4 py-2 font-medium;
   }
   .underLine {
-    @apply relative after:absolute after:w-48 after:h-[2.5px] after:rounded-3xl after:bg-[#ab2132] after:bottom-[-13px] after:left-1/2 after:-translate-x-1/2;
+    @apply relative after:absolute after:w-[50%] after:h-[2.5px] after:rounded-3xl after:bg-[#ab2132] after:bottom-[-13px] after:left-1/2 after:-translate-x-1/2;
   }
   .primaryInput {
     @apply border rounded-md py-[8px] w-full focus:outline-primary-color2 px-4;
