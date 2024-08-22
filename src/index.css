@@ -70,7 +70,7 @@ h2 {
 
 .headerCaption {
   background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #fff),
-    url("./assets/images/build.webp");
+    url("./assets/images/usa.webp");
   background-position: bottom;
   background-size: cover;
 }
