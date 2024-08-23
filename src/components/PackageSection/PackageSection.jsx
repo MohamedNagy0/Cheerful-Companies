@@ -4,7 +4,7 @@ import PackageCards from "./PackageCards";
 
 function PackageSection() {
   return (
-    <section className="my-12 packageCoverImage" id="PackageSection">
+    <section className="my-12 packageCoverImage pt-8" id="PackageSection">
       {/* <PackageSteps /> */}
       <BenefitSlider />
 
